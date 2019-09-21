@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FindTheQueen_Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FindTheQueen_Client_jar</output-path>
+    <root id="archive" name="FindTheQueen_Client.jar">
+      <element id="module-output" name="FindTheQueen_Client" />
+    </root>
+  </artifact>
+</component>
