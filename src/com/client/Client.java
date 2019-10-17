@@ -16,11 +16,12 @@ public class Client {
 
         ){
 
-//            boolean access = ManageLogin(input, output);
-//            if(!access){
-//                System.out.println("fraud");
-//                socket.close();
-//            }
+            boolean access = ManageLogin(input, output);
+            if(!access){
+                System.out.println("fraud");
+                socket.close();
+            }
+
             System.out.println(("Connected to game server\n\n"));
             BufferedReader stdIn =
                     new BufferedReader(new InputStreamReader(System.in));
